@@ -175,8 +175,28 @@
 
 #<===================================================>
 
-text = "RONAN"
-arr_Text = []
-for i in range(len(text)):
-    arr_Text.append(text[i])
-print(arr_Text)
+# text = "RONAN"
+# arr_Text = []
+# for i in range(len(text)):
+#     arr_Text.append(text[i])
+# print(arr_Text)
+
+#<===================================================>
+
+# number = 1, 2, 4, 5
+# my_num = []
+
+# for i in range(len(number)):
+#     my_num.append(number[i])
+
+# print(my_num)
+#<===================================================>
+
+# numbers = [10, 20, 30, 40]
+# numbers.insert(0, 100)
+# print(numbers)
+
+#<===================================================>
+numbers = [10, 20, 30, 40]
+numbers.pop(3)
+print(numbers)
