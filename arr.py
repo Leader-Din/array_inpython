@@ -190,6 +190,7 @@
 #     my_num.append(number[i])
 
 # print(my_num)
+
 #<===================================================>
 
 # numbers = [10, 20, 30, 40]
@@ -197,6 +198,114 @@
 # print(numbers)
 
 #<===================================================>
-numbers = [10, 20, 30, 40]
-numbers.pop(3)
-print(numbers)
+
+# numbers = [10, 20, 30, 40]
+# numbers.pop(3)
+# print(numbers)
+
+#<===================================================>
+
+
+#excercice1
+# frouites = []
+# frouites.append("apple")
+# frouites.append("banana")
+# frouites.append("cherry")
+# print(frouites)
+
+#ex 2
+
+# •	Task: Write a loop that asks the user to input 5 of their favorite foods and appends each one to a list called favorite_foods. Print the final list.
+
+# favorite_foods = []
+# for i in range(5):
+#     favoriteFood = input("Enter your favorite food: ")
+#     favorite_foods.append(favoriteFood)
+
+# print(favorite_foods)
+
+# ex 3
+# •	Task: Start with the list colors = ["red", "blue", "green"]. Insert the color "yellow" at index 1. Print the updated list.
+
+# colors = ["red", "blue", "green"]
+# colors.insert(1, "yellow")
+# print(colors)
+
+#ex 4
+#•	Task: Given the list numbers = [10, 20, 30, 40], insert the number 25 at index 2 and append the number 50 to the end of the list. Print the final list.
+
+# numbers = [10, 20, 30, 40]
+# numbers.insert(2, 25)
+# numbers.append(50)
+# print(numbers)
+
+#ex5
+# •	Task: Create a list animals = ["dog", "cat", "bird", "fish"]. Use the pop method to remove the last item from the list. Print the updated list and the removed item.
+# animals = ["dog", "cat", "bird", "fish"]
+# animals.pop(3)
+# print(animals)
+
+#ex 6
+#•	Task: Given the list cities = ["New York", "Los Angeles", "Chicago", "Houston"], use the pop method to remove the city at index 1. Print the updated list and the removed city.
+# cities = ["New York", "Los Angeles", "Chicago", "Houston"]
+# cities.pop(1)
+# print(cities)
+
+#ex7
+#•	Task: Start with an empty list called shopping_list. Append "milk" and "bread" to the list. Insert "eggs" at the beginning of the list. Then, use pop to remove the last item from the list. Print the final list.
+
+# shopping_list = []
+# shopping_list.append("milk")
+# shopping_list.append("bread")
+# shopping_list.insert(0, "eggs")
+# shopping_list.pop(2)
+# print(shopping_list)
+
+# ex 8
+
+#•	Task: Create a list called tasks = ["homework", "clean room", "exercise"]. Insert "read book" at index 1, append "cook dinner" to the end, and then remove the first item using pop(0). Print the final list
+
+# tasks = ["homework", "clean room", "excercice"]
+
+# tasks.insert(1, "read book")
+# tasks.append("cook dinner")
+# tasks.pop(0)
+
+# print(tasks)
+
+#ex 9
+#•	Task: Write a function append_multiple(array, items) that takes an array array and another array items. Append each item from items to array and return the updated array.
+
+# def append_multiple(array, items):
+#     for item in items:
+#         array.append(item)
+    
+#     return array
+# array = eval(input("Enter your array: "))
+# items = eval(input("Enter your items: "))
+# print(append_multiple(array, items))
+
+	
+# arrayToSum = [1, 3, 9, 10, 20]
+# total = 0
+# i = 0
+# while i < len(arrayToSum) :
+#     total += int(arrayToSum[i])
+#     i += 1
+# print(total)
+
+# array = [-5, 2, 9, -10, 0]
+# i = 0
+# while i < len(array) :
+#     print(array[i])
+# i+=1
+
+numbers = [55, 4, 92, 1, 104, 64, 73, 99, 20]
+max_value = numbers[0]
+
+for num in numbers :
+    if num > max_value :
+        max_value = num
+
+print('Maximum value:', max_value)
+
