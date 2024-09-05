@@ -300,12 +300,27 @@
 #     print(array[i])
 # i+=1
 
-numbers = [55, 4, 92, 1, 104, 64, 73, 99, 20]
-max_value = numbers[0]
+# numbers = [55, 4, 92, 1, 104, 64, 73, 99, 20]
+# max_value = numbers[0]
 
-for num in numbers :
-    if num > max_value :
-        max_value = num
+# for num in numbers :
+#     if num > max_value :
+#         max_value = num
 
-print('Maximum value:', max_value)
+# print('Maximum value:', max_value)
+
+# team 1
+
+# def findNumberBetweenEightandTwelve(arr):
+    
+#     if not arr:
+#         return True
+#     for i in range(len(arr)):
+#         if 8 < arr[i] < 12:
+#             return True
+#     return False
+# arr = eval(input("Enter a list of numbers: "))
+# print(findNumberBetweenEightandTwelve(arr))
+
+#team 2
 
