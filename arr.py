@@ -324,3 +324,79 @@
 
 #team 2
 
+
+# def extract_between_1_and_0(lst):
+#     result = []
+#     found_one = False
+#     for num in lst:
+#         if num == 1:
+#             found_one = True
+#             result = []
+#         elif num == 0 and found_one:
+#             return result
+#         elif found_one:
+#             result.append(num)
+#     return []
+
+# lst = eval(input("Enter a list: "))
+# print(extract_between_1_and_0(lst))
+
+#team 3
+# Check if average of array is greater than 50 print “Pass” otherwise print “Fail”.
+
+# def fineNum(array):
+#     index = 0
+#     result = 0
+#     result1 = ""
+#     for i in range(len(array)):
+#         result += array[i]
+#         index += 1
+#     if result / index > 50:
+#         result1 = "Pass"
+#     else:
+#         result1 = "fail"
+#     return result1
+# num = eval(input())
+# print(fineNum(num))
+
+# def check_average(arr):
+#     if len(arr) == 0:
+#         print("Fail")
+#     else:
+#         avg = sum(arr) / len(arr)
+#         if avg > 50:
+#             print("Pass")
+#         else:
+#             print("Fail")
+# arr = eval(input("Enter an arr: "))
+# check_average(arr)
+
+# ex 4
+#•	Check how many True Boolean value in array
+
+# def check_bool(arr):
+#     count = 0
+#     for i in range(len(arr)):
+#         if arr[i] == True:
+#             count += 1
+    
+#     return count
+
+# arr = eval(input("Enter an arr: "))
+# print(check_bool(arr))
+
+#ex 5
+#•	Input a number
+#	Display even numbers from 0 till that number
+
+# def display_even_numbers(n):
+#     num = 0
+#     result = ""
+    
+#     while num <= n:
+#         result += str(num) + " "
+#         num += 2
+#     return result
+
+# number = int(input("Input a number: "))
+# print(display_even_numbers(number))
