@@ -400,3 +400,28 @@
 
 # number = int(input("Input a number: "))
 # print(display_even_numbers(number))
+
+
+# array = [2,3,2,4,5,2,5,2]
+# isFoundTwo = False
+# total = 0
+# for num in array:
+#     if num == 2:
+#         isFoundTwo = not isFoundTwo
+#     elif isFoundTwo:
+#         total+=num
+# print(total)
+
+#ex deeu
+
+# def isEqual(numbers1, numbers2):
+#     if len(numbers1) != len(numbers2):
+#         return "Not Equal"
+#     for i in range(len(numbers1)):
+#         if numbers1[i] != numbers2[i]:
+#             return "Not Equal"
+#     return "Equal"
+
+# numbers1 = eval(input())
+# numbers2 = eval(input())
+# print(isEqual(numbers1, numbers2))
