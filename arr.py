@@ -425,3 +425,140 @@
 # numbers1 = eval(input())
 # numbers2 = eval(input())
 # print(isEqual(numbers1, numbers2))
+
+#EXCERCICE
+#get index of minimum nmber 
+
+
+#Excercice 6 
+
+# def replaseletter(array):
+#     new_array = []
+#     for val in array:
+#         new_world = ""
+#         for i in range(len(val)):
+#             if val[i] == "a":
+#                 new_world += "$"
+#             else:
+#                 new_world += val[i]
+
+#         new_array.append(new_world)
+
+#     return new_array
+
+# array = eval(input())
+
+# print(replaseletter(array))
+
+
+
+# text = input()
+# result = ""
+# for i in range(len(text)):
+#     if i % 2 == 0:
+#         for j in range(int(text[i])):
+#             result += text[i+1]
+#         result += "\n"
+# print(result)
+
+# sum = 0
+# text = input()
+# for i in range(len(text)):
+#     sum += int(text[i])
+# print(sum)
+
+# text = input()
+# isFoundsign = False
+# i = 0
+# while not isFoundsign and i < len(text):
+#     if text[i] == "!":
+#         isFoundsign = True
+#         print("True")
+#     i += 1
+
+#print "Well done" if the word contains two "A" and two "B" other print lost
+
+# text = input()
+# countA = 0
+# countB = 0
+
+# for i in range(len(text)):
+#     if text[i] == "A":
+#         countA += 1
+#     elif text[i] == "B":
+#         countB += 1
+# if countA == 2 and countB == 2:
+#     print("Well DONE")
+# else:
+#     print("LOST")
+
+# text = input()
+# countA = 0
+# countB = 0
+
+# for i in range(len(text)):
+#     if text[i] == "A":
+#         countA += 1
+#     elif text[i] == "B":
+#         countB += 1
+# if countA > countB:
+#     print("Well DONE")
+# else:
+#     print("LOST")
+
+#enter three string (text1, text2, text3) in console print the word have gratest size number of character
+
+
+# text1 = input()
+# text2 = input()
+# text3 = input()
+# if len(text1) > len(text2) and len(text1) > len(text3):
+#     print("The gratest word is: ",text1)
+# elif len(text2) > len(text1) and len(text2) > len(text3):
+#      print("The gratest word is: ",text2)
+# else:
+#      print("The gratest word is: ",text3)
+
+
+
+# array = eval(input())
+# sum = 0
+# average = 0
+# for i in array:
+#     sum += int(i)
+
+# average = sum / len(array)  
+# if average > 50:
+#     print("Past")
+# else:
+#     print("Fail")
+
+
+# find numbers which appreas more than one time in the given array
+#example: [9, 9, 9, 8, 8, 1, 2] output = [9, 8]
+
+# array = eval(input())
+# unique_numbers = []
+# for num in array:
+#     if array.count(num) > 1 and num not in unique_numbers:
+#         unique_numbers.append(num)
+
+# print(unique_numbers)
+
+
+# text = input()
+# lastIndex = len(text) - 1
+# result = ""
+# for i in range(len(text)):
+#     result += text[lastIndex - i]
+# print(result)
+
+
+# check if input contains the word rady
+
+# text = input()
+
+# if "rady" in text.lower():
+#     print("Yes")
+# else:
+#     print("No")
